@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif;
+}
+/* header */
+.header {
+  width: 100%;
+  height: 2rem;
+  max-height: auto;
+  word-wrap: break-word;
+  background: rgb(77, 76, 76);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+.header-logo {
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin: 0.5rem;
+}
+
+.header__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 800;
+  cursor: pointer;
+}
+.header__list-item {
+  list-style: none;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+/* section */
+.section {
+  height: 4rem;
+  width: 80%;
+  margin-right: 14rem;
+  margin-top: 4rem;
+  background-color: rebeccapurple;
+}
+/* footer */
+
+.footer {
+  width: 100%;
+  height: 2rem;
+  max-height: auto;
+  background: rgb(40, 242, 13);
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 800;
+  cursor: pointer;
+}
+.footer__list-item {
+  list-style: none;
+  margin: 0.5rem;
+}
+/* horizontal cards */
+.horizontal__cards {
+  height: auto;
+  width: 12rem;
+  border: 2px solid black;
+  margin: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+}
+.horizontal__cards-image {
+  height: 8rem;
+  width: 10rem;
+  max-width: 12rem;
+  margin: 0.3rem;
+  border: 2px solid black;
+  border-radius: 0.3rem;
+}
+
+.horizontal__cards-image:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.horizontal__cards-title {
+  margin: 0.2rem;
+  font-size: 1.5rem;
+}
+.horizontal__cards-subtitle {
+  margin: 0.2rem;
+  font-size: 1.2rem;
+}
+.horizontal__cards-paragraph {
+  margin: 0.5rem;
+  font-size: 1rem;
+}
+
+.horizontal__cards-btn {
+  border: none;
+  height: 2rem;
+  width: 10rem;
+  background-color: rgb(39, 190, 46);
+  color: white;
+  font-weight: 800;
+  border-radius: 0.4rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
